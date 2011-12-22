@@ -1,15 +1,19 @@
-=== 0.0.1 / 2011-02-01
+=== 1.1.0 / 2011-12-22
 
-* Initial Release.
+* Removing yajl in favor of json_pure to support use in a JRuby environment
 
-=== 1.0.0 / 2011-02-01
+== 1.0.3 / 2011-09-07
 
-* Correction in showing registration form.
+* Missing MIT-LICENSE added.
 
 === 1.0.1 / 2011-02-02
 
 * Bug fixes and README file changes.
 
-=== 1.0.3 / 2011-09-07
+=== 1.0.0 / 2011-02-01
 
-* Missing MIT-LICENSE added.
+* Correction in showing registration form.
+
+== 0.0.1 / 2011-02-01
+
+* Initial Release.

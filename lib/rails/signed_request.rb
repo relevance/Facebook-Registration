@@ -1,7 +1,6 @@
 require 'rubygems'
 require 'openssl'
 require 'base64'
-require 'yajl'
 
 module FacebookRegistration
 class SignedRequest
@@ -22,7 +21,7 @@ class SignedRequest
           raise "Invalid signature"
         end
 
-        signed_params = Yajl::Parser.new.parse(base64_url_decode(signed_params))
+        signed_params = JSON.parse(base64_url_decode(signed_params))
 
 	return signed_params
       end
